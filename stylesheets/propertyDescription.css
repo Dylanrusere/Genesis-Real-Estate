@@ -1,0 +1,198 @@
+.property_description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    margin-top: 5%;
+
+}
+
+.property_img{
+    width: 100%;
+
+    img{
+        width: 100%;
+    }
+}
+
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tabs label {
+	order: 1; 
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #1D2124;
+  color: #fff;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #46cc5D;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+/* Two */
+.tabs2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tabs2 label {
+	order: 1; 
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #1D2124;
+  color: #fff;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs2 .tab2 {
+  order: 99;
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs2 input[type="radio"] {
+	display: none;
+}
+.tabs2 input[type="radio"]:checked + label {
+	background: #46cc5D;
+}
+.tabs2 input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs2 .tab2,
+  .tabs2 label {
+    order: initial;
+  }
+  .tabs2 label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+/* Three */
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tabs label {
+	order: 1; 
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #1D2124;
+  color: #fff;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #46cc5D;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+/* Four */
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tabs label {
+	order: 1; 
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #1D2124;
+  color: #fff;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #46cc5D;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
